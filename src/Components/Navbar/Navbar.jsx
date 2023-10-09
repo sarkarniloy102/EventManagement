@@ -1,5 +1,6 @@
 
-const Services = () => {
+
+const Navbar = () => {
     return (
         <div>
             
@@ -7,4 +8,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Navbar;

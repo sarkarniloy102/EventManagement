@@ -1,5 +1,5 @@
 
-const Services = () => {
+const Banner = () => {
     return (
         <div>
             
@@ -7,4 +7,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Banner;

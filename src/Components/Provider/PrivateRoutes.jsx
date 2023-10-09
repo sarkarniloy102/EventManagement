@@ -1,5 +1,5 @@
 
-const Services = () => {
+const PrivateRoutes = () => {
     return (
         <div>
             
@@ -7,4 +7,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default PrivateRoutes;
