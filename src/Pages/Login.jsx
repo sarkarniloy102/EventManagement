@@ -10,7 +10,8 @@ import {
   signInWithPopup,
 } from "firebase/auth";
 import app from "../Firebase/Firebase.config";
-// import { AuthContext } from "../Components/Provider/AuthProvider";
+
+
 
 const auth = getAuth(app);
 const googleProvider = new GoogleAuthProvider();
@@ -84,10 +85,10 @@ const Login = () => {
   };
 
   return (
-    <div className="hero min-h-screen max-w-none bg-gradient-to-r from-blue-500 to-indigo-600 text-slate-200 transition-all duration-500 ease-in-out">
-      <div className="hero-content flex items-center justify-center h-full w-full ">
+    <div className=" mx-auto max-w-none bg-gradient-to-r from-blue-500 to-indigo-600 text-slate-200 transition-all duration-500 ease-in-out">
+      <div className="hero-content flex flex-col items-center justify-center h-full w-full ">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold animate__animated animate__fadeInDown">
+          <h1 className="text-5xl font-bold ">
             Login now!
           </h1>
         </div>
@@ -132,7 +133,7 @@ const Login = () => {
                   Register
                 </Link>
               </p>
-              <button className="btn btn-primary bg-blue-500 hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105 w-full p-2 text-white rounded-md">
+              <button className="btn btn-primary  hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105 w-full p-2 text-white rounded-md">
                 Login
               </button>
             </div>

@@ -25,7 +25,7 @@ const Gallery = () => {
           data-aos-duration="1000"
           className="  bg-gray-800  border border-gray-300 "
         >
-          <img className="w-full " src="https://i.ibb.co/L9rS2MB/side-view-lovely-married-couple-which-hugging-dancing-first-wedding-dance-cozy-restaurant-while-thei.jpg" alt="" />
+          <img className="w-full " src="https://i.ibb.co/8BGtm4p/g1.webp" alt="" />
         </div>
         <div
           data-aos="flip-up"
@@ -41,7 +41,7 @@ const Gallery = () => {
           data-aos-duration="1000"
           className="  bg-gray-800  border border-gray-300 "
         >
-          <img className="w-full " src="https://i.ibb.co/pQ8xhjM/loving-wife-feeding-her-husband-wedding-ceremony-night.jpg" alt="" />
+          <img className="w-full " src="https://i.ibb.co/s2zwpTH/g2.webp" alt="" />
         </div>
         <div
           data-aos="flip-up"
@@ -57,7 +57,7 @@ const Gallery = () => {
           data-aos-duration="1000"
           className="  bg-gray-800  border border-gray-300 "
         >
-          <img className="w-full" src="https://i.ibb.co/r7hsrJT/side-view-photographer-taking-photos-bride.jpg" alt="" />
+          <img className="w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-qfkq6F883p0pUtuMHG-lfVIlGpMZr4hF_A&usqp=CAU" alt="" />
         </div>
         <div
           data-aos="flip-up"
@@ -65,7 +65,7 @@ const Gallery = () => {
           data-aos-duration="1000"
           className="  bg-gray-800  border border-gray-300 "
         >
-          <img className="w-full" src="https://i.ibb.co/HFn1Tsy/female-wedding-planner-working-ceremony.jpg" alt="" />
+          <img className="w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO4qpDW3SvI95I8Lrp9MRlnnhjLk47b-hHfw&usqp=CAU" alt="" />
         </div>
         <div
           data-aos="flip-up"
@@ -81,7 +81,7 @@ const Gallery = () => {
           data-aos-duration="1000"
           className="  bg-gray-800  border border-gray-300 row-start-2 row-span-2"
         >
-          <img className="w-full" src="https://i.ibb.co/LJjCH1J/sensitive-portrait-pregnant-woman-expecting-lady-pink-dress-poses-with-flowers.jpg" alt="" />
+          <img className="w-full" src="https://i.ibb.co/mFp6DLk/g3.jpg" alt="" />
         </div>
       </div>
     </div>
