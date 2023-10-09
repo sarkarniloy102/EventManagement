@@ -1,22 +1,29 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import './index.css'
 import Layout from './Layout/Layout';
-import Home from '././Pages/Home/Home'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Gallery from './Pages/Gallery/Gallery';
-import LogIn from './Pages/LogIn/LogIn'
-import Register from './Pages/Register/Register'
-import Services from './Components/Services/Services';
-import PrivateRoutes from './Components/Provider/PrivateRoutes';
-import EventDetails from './Components/EventDetails/EventDetails';
+import Error from './Components/Error';
+import Home from './Pages/Home';
+import Gallery from './Pages/Gallery';
+import Login from './Pages/Login';
 import AuthProvider from './Components/Provider/AuthProvider';
+import Register from './Components/Register';
+import Services from './Components/Our services/Services';
+import EventDetails from './Components/EventDetails';
+import PrivateRoutes from './Components/PrivateRoutes';
+
+
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    errorElement:<Error></Error>,
     children: [
       {
         path: "/",
@@ -25,12 +32,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/gallery",
-        element:<Gallery></Gallery> ,
+        element:<Gallery></Gallery>,
         
       },
       {
         path:"/login",
-        element: <LogIn></LogIn>
+        element:<Login></Login>
       },
       {
         path:"/register",
@@ -38,12 +45,12 @@ const router = createBrowserRouter([
       },
       {
         path:"/services",
-        element: <Services></Services> ,
+        element: <Services></Services>,
         loader: () => fetch('public/Services.json')
       },
       {
         path:"/services/:id",
-        element: <PrivateRoutes><EventDetails></EventDetails> </PrivateRoutes>,
+        element: <PrivateRoutes><EventDetails></EventDetails></PrivateRoutes>,
         // loader: () => fetch('public/Services.json')
       },
       
@@ -56,8 +63,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <AuthProvider>
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router} />
     </AuthProvider>
-   
   </React.StrictMode>,
 )

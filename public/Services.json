@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "EventSpace",
+    "image": "https://i.ibb.co/LdFhQrg/eventspace.jpg",
+    "shortDescription": "Discover the perfect venue for your special occasion with our guidance.",
+    "description": "Choose from a variety of stunning venues for your event. Whether you're planning a wedding, birthday party, or any special occasion, we offer a range of indoor and outdoor locations to suit your needs. Our experienced team will help you select the ideal setting to create lasting memories. From elegant ballrooms to picturesque gardens, we have the perfect venue waiting for you. Create a beautiful atmosphere for your guests and make your event unforgettable.",
+    "price": 5000
+  },
+  {
+    "id": 2,
+    "title": "CardCrafters",
+    "image": "https://i.ibb.co/4S8Kq9j/card-crafter.jpg",
+    "shortDescription": "Customize your event with beautifully designed invitation cards.",
+    "description": "Elevate your event with our exquisite invitation cards. Our custom-designed cards will set the tone for your special occasion. From elegant wedding invitations to fun and colorful birthday cards, we offer a wide range of styles to choose from. Personalize your cards with your unique message and event details. Our professional designers will work closely with you to create stunning and memorable invitations that reflect your vision.",
+    "price": 250
+  },
+  {
+    "id": 3,
+    "title": "Music Festival",
+    "image": "https://i.ibb.co/PZxRBcn/music.jpg",
+    "shortDescription": "Book talented entertainers to make your event memorable.",
+    "description": "Entertainment plays a vital role in making your event memorable. Whether it's a live band, a DJ, or other performers, we provide top-notch entertainment services that will keep your guests engaged and excited. Our talented entertainers will create a lively and enjoyable atmosphere, ensuring everyone has a fantastic time.",
+    "price": 10000
+  },
+  {
+    "id": 4,
+    "title": "TastyTreat Catering",
+    "image": "https://i.ibb.co/QDvcw4n/tastetreate.jpg",
+    "shortDescription": "Delight your guests with a variety of delicious food and drinks.",
+    "description": "Good food and drinks are the heart of any successful event. Treat your guests to a delectable culinary experience with our catering services. From mouthwatering dishes to a delightful selection of beverages, our menu is designed to satisfy all tastes. Our expert chefs and bartenders will ensure that every bite and sip is a memorable one.",
+    "price": 3500
+  },
+  {
+    "id": 5,
+    "title": "Captured Moments Productions",
+    "image": "https://i.ibb.co/JFPVSjb/camera.webp",
+    "shortDescription": "Capture beautiful moments with professional photography",
+    "description": "Preserve the memories of your event with our professional photography and videography services. Our skilled photographers and videographers will capture every special moment, from the first smile to the final farewell. With state-of-the-art equipment and an eye for detail, we ensure that your event's essence is beautifully documented.",
+    "price": 1200
+  },
+  {
+    "id": 6,
+    "title": "Chef's Choice Catering",
+    "image": "https://i.ibb.co/RhFxQ36/chef.jpg",
+    "shortDescription": "Enjoy a custom menu crafted by our talented chefs.",
+    "description": "Indulge in a culinary experience like no other with our custom food offerings. Our skilled chefs will create a bespoke menu tailored to your preferences and event theme. From exquisite appetizers to mouthwatering main courses and gourmet desserts, we bring a world of flavors to your table.",
+    "price": 5000
+  }
+]
