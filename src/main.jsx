@@ -15,6 +15,7 @@ import Register from './Components/Register';
 import Services from './Components/Our services/Services';
 import EventDetails from './Components/EventDetails';
 import PrivateRoutes from './Components/PrivateRoutes';
+import Review from './Pages/Review';
 
 
 
@@ -53,6 +54,11 @@ const router = createBrowserRouter([
         element: <PrivateRoutes><EventDetails></EventDetails></PrivateRoutes>,
         // loader: () => fetch('public/Services.json')
       },
+
+      {
+        path: "/review",
+        element: <Review></Review>
+      }
       
       
     ]
