@@ -5,7 +5,7 @@
     "image": "https://i.ibb.co/LdFhQrg/eventspace.jpg",
     "shortDescription": "Discover the perfect venue for your special occasion with our guidance.",
     "description": "Choose from a variety of stunning venues for your event. Whether you're planning a wedding, birthday party, or any special occasion, we offer a range of indoor and outdoor locations to suit your needs. Our experienced team will help you select the ideal setting to create lasting memories. From elegant ballrooms to picturesque gardens, we have the perfect venue waiting for you. Create a beautiful atmosphere for your guests and make your event unforgettable.",
-    "price": 5000
+    "price": 2000
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "image": "https://i.ibb.co/4S8Kq9j/card-crafter.jpg",
     "shortDescription": "Customize your event with beautifully designed invitation cards.",
     "description": "Elevate your event with our exquisite invitation cards. Our custom-designed cards will set the tone for your special occasion. From elegant wedding invitations to fun and colorful birthday cards, we offer a wide range of styles to choose from. Personalize your cards with your unique message and event details. Our professional designers will work closely with you to create stunning and memorable invitations that reflect your vision.",
-    "price": 250
+    "price": 2500
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "image": "https://i.ibb.co/PZxRBcn/music.jpg",
     "shortDescription": "Book talented entertainers to make your event memorable.",
     "description": "Entertainment plays a vital role in making your event memorable. Whether it's a live band, a DJ, or other performers, we provide top-notch entertainment services that will keep your guests engaged and excited. Our talented entertainers will create a lively and enjoyable atmosphere, ensuring everyone has a fantastic time.",
-    "price": 10000
+    "price": 1000
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "image": "https://i.ibb.co/JFPVSjb/camera.webp",
     "shortDescription": "Capture beautiful moments with professional photography",
     "description": "Preserve the memories of your event with our professional photography and videography services. Our skilled photographers and videographers will capture every special moment, from the first smile to the final farewell. With state-of-the-art equipment and an eye for detail, we ensure that your event's essence is beautifully documented.",
-    "price": 1200
+    "price": 1600
   },
   {
     "id": 6,
